@@ -7,11 +7,7 @@ function HomePage() {
       <Navbar />
       <title>Home Page to Portfolio</title>
       <div>
-        <p>
-          Welcome to my portfolio! This is where I showcase my projects, skills,
-          and experience. Feel free to explore and learn more about me and my
-          work.
-        </p>
+        <p>Welcome to my portfolio!</p>
       </div>
     </>
   );
