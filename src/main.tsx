@@ -1,10 +1,10 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import './index.css'
-import App from './App.tsx'
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+//import "bootstrap/dist/css/bootstrap.min.css"; need to install bootstrap first
+import HomePage from "./app/Home/page";
 
-createRoot(document.getElementById('root')!).render(
+createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <App />
+    <HomePage />
   </StrictMode>,
-)
+);
