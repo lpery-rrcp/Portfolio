@@ -1,6 +1,4 @@
-import { Route } from "react-router-dom";
-import HomePage from "../pages/Home/page";
-import Projects from "../pages/Projects/page";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
@@ -8,10 +6,10 @@ function Navbar() {
       <h1>My Website</h1>
       <ul>
         <li>
-          <Route path="/" element={<HomePage />} />
+          <Link to="/">Home</Link>
         </li>
         <li>
-          <Route path="/projects" element={<Projects />} />
+          <Link to="/projects">Projects</Link>
         </li>
       </ul>
     </nav>
