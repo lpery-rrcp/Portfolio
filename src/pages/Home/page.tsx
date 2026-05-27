@@ -1,4 +1,5 @@
-import Navbar from "../../components/Navbar";
+import Navbar from "../../components/Navbar/Navbar";
+import Footer from "../../components/Footer/Footer";
 
 function HomePage() {
   return (
@@ -21,6 +22,8 @@ function HomePage() {
       <div>
         <p>Here are some of the skills I have developed.</p>
       </div>
+
+      <Footer />
     </>
   );
 }
