@@ -20,7 +20,23 @@ function HomePage() {
 
       <title>Skills Section</title>
       <div>
-        <p>Here are some of the skills I have developed.</p>
+        <h2>Frontend</h2>
+        <p>React, TypeScripte, HTML5, CSS3, Tailwind CSS.</p>
+      </div>
+
+      <div>
+        <h2>Backend</h2>
+        <p>Node.js, Python, REST API.</p>
+      </div>
+
+      <div>
+        <h2>Data & Databases</h2>
+        <p>Python, SQL, MySQL, PostgreSQL, MongoDB.</p>
+      </div>
+
+      <div>
+        <h2>Tools</h2>
+        <p>Git, Docker, Vite, npm</p>
       </div>
 
       <Footer />
