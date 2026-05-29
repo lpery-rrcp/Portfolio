@@ -1,4 +1,4 @@
-import Footer from "../../components/Footer/Footer";
+// Imports
 
 function HomePage() {
   return (
@@ -36,8 +36,6 @@ function HomePage() {
         <h2>Tools</h2>
         <p>Git, Docker, Vite, npm</p>
       </div>
-
-      <Footer />
     </>
   );
 }
