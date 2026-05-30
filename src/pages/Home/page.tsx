@@ -1,5 +1,7 @@
 // Imports
 import { FcAbout } from "react-icons/fc";
+import { FaPython, FaNode } from "react-icons/fa";
+import { SiWebrtc } from "react-icons/si";
 
 function HomePage() {
   return (
@@ -26,7 +28,9 @@ function HomePage() {
 
       <div>
         <h2>Backend</h2>
-        <p>Node.js, Python, REST API.</p>
+        <p>
+          <FaNode /> Node.js, <FaPython /> Python, <SiWebrtc /> REST API.
+        </p>
       </div>
 
       <div>
