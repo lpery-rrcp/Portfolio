@@ -2,6 +2,9 @@
 import { FcAbout } from "react-icons/fc";
 import { FaPython, FaNode } from "react-icons/fa";
 import { SiWebrtc } from "react-icons/si";
+import { TbFileTypeSql } from "react-icons/tb";
+import { GrMysql } from "react-icons/gr";
+import { DiPostgresql } from "react-icons/di";
 
 function HomePage() {
   return (
@@ -29,13 +32,18 @@ function HomePage() {
       <div>
         <h2>Backend</h2>
         <p>
-          <FaNode /> Node.js, <FaPython /> Python, <SiWebrtc /> REST API.
+          <FaNode /> Node.js, <SiWebrtc /> REST API.
         </p>
       </div>
 
       <div>
         <h2>Data & Databases</h2>
-        <p>Python, SQL, MySQL, PostgreSQL, MongoDB.</p>
+        <p>
+          <FaPython />
+          Python, <TbFileTypeSql /> SQL, <GrMysql /> MySQL, <DiPostgresql />
+          PostgreSQL, <TbFileTypeSql />
+          MongoDB.
+        </p>
       </div>
 
       <div>
