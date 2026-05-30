@@ -1,8 +1,10 @@
 // Imports
+import { FcAbout } from "react-icons/fc";
 
 function HomePage() {
   return (
     <>
+      <FcAbout />
       <title>Home Page to Portfolio</title>
 
       <div></div>
