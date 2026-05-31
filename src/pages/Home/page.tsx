@@ -1,12 +1,13 @@
 // Imports
 import { FcAbout } from "react-icons/fc";
-import { FaPython, FaNode, FaGithub } from "react-icons/fa";
+import { FaPython, FaNode, FaGithub, FaReact } from "react-icons/fa";
 import { SiWebrtc, SiVite } from "react-icons/si";
-import { TbFileTypeSql } from "react-icons/tb";
+import { TbFileTypeSql, TbBrandTypescript } from "react-icons/tb";
 import { GrMysql } from "react-icons/gr";
 import { DiPostgresql } from "react-icons/di";
 import { FaGitAlt } from "react-icons/fa6";
 import { AiOutlineDocker } from "react-icons/ai";
+import { RiTailwindCssFill } from "react-icons/ri";
 
 function HomePage() {
   return (
@@ -28,7 +29,10 @@ function HomePage() {
       <title>Skills Section</title>
       <div>
         <h2>Frontend</h2>
-        <p>React, TypeScripte, HTML5, CSS3, Tailwind CSS.</p>
+        <p>
+          <FaReact /> React, <TbBrandTypescript />
+          TypeScript, <RiTailwindCssFill /> Tailwind CSS.
+        </p>
       </div>
 
       <div>
