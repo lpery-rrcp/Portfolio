@@ -1,10 +1,12 @@
 // Imports
 import { FcAbout } from "react-icons/fc";
-import { FaPython, FaNode } from "react-icons/fa";
-import { SiWebrtc } from "react-icons/si";
+import { FaPython, FaNode, FaGithub } from "react-icons/fa";
+import { SiWebrtc, SiVite } from "react-icons/si";
 import { TbFileTypeSql } from "react-icons/tb";
 import { GrMysql } from "react-icons/gr";
 import { DiPostgresql } from "react-icons/di";
+import { FaGitAlt } from "react-icons/fa6";
+import { AiOutlineDocker } from "react-icons/ai";
 
 function HomePage() {
   return (
@@ -48,7 +50,10 @@ function HomePage() {
 
       <div>
         <h2>Tools</h2>
-        <p>Git, Docker, Vite, npm</p>
+        <p>
+          <FaGithub /> GitHub, <FaGitAlt /> Git, <AiOutlineDocker />
+          Docker, <SiVite /> Vite
+        </p>
       </div>
     </>
   );
