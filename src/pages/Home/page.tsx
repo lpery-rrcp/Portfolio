@@ -30,8 +30,8 @@ function HomePage() {
       <div>
         <h2>Frontend</h2>
         <p>
-          <FaReact /> React, <TbBrandTypescript />
-          TypeScript, <RiTailwindCssFill /> Tailwind CSS.
+          <FaReact /> React, <TbBrandTypescript /> TypeScript,{" "}
+          <RiTailwindCssFill /> Tailwind CSS.
         </p>
       </div>
 

@@ -1,0 +1,8 @@
+export const projects = [
+    {
+        id: "1",
+        title: "Project One",
+        description: "A brief description of Project One.",
+        technologies: ["React", "TypeScript", "CSS"]
+    }
+]

@@ -9,7 +9,12 @@ function ProjectsPage() {
       </div>
 
       <h2>Project 1</h2>
-      <Project />
+      <Project
+        id={"1"}
+        title="Sample Project"
+        description="A short description of the sample project."
+        technologies={["React", "TypeScript"]}
+      />
     </>
   );
 }
