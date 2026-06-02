@@ -1,20 +1,16 @@
 import Project from "../../components/projectPage/page";
+import { projects } from "../../data/projectData.ts";
 
 function ProjectsPage() {
   return (
     <>
-      <title>Projects Page</title>
-      <div>
-        <p>Welcome to my Projects Page</p>
-      </div>
+      <h1>Projects Page</h1>
 
-      <h2>Project 1</h2>
-      <Project
-        id={"1"}
-        title="Sample Project"
-        description="A short description of the sample project."
-        technologies={["React", "TypeScript"]}
-      />
+      <p>Welcome to my Projects Page</p>
+
+      {projects.map((project) => (
+        <Project key={project.id} {...project} />
+      ))}
     </>
   );
 }

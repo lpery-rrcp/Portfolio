@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 
-// Add props here
 type ProjectProps = {
   id: string;
   title: string;
@@ -10,20 +9,21 @@ type ProjectProps = {
 
 function Project({ id, title, description, technologies }: ProjectProps) {
   return (
-    <>
-      <title>{title}</title>
-      <div>
-        <p>{description}</p>
-        <ul>
-          {technologies.map((tech) => (
-            <li key={tech}>{tech}</li>
-          ))}
-        </ul>
-      </div>
-          <Link to={`/projects/${id}`}>
-        <button>View the Project</button>
+    <div>
+      <h2>{title}</h2>
+
+      <p>{description}</p>
+
+      <ul>
+        {technologies.map((tech) => (
+          <li key={tech}>{tech}</li>
+        ))}
+      </ul>
+
+      <Link to={`/projects/${id}`}>
+        <button type="button">View the Project</button>
       </Link>
-    </>
+    </div>
   );
 }
 
