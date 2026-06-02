@@ -12,6 +12,7 @@ function App() {
         <Route index element={<HomePage />} />
         <Route path="projects" element={<ProjectsPage />} />
         <Route path="projects/:id" element={<ProjectDetails />} />
+        <Route path="cv" element={<div>CV Page</div>} />
       </Route>
     </Routes>
   );
