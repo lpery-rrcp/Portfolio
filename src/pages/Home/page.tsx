@@ -7,12 +7,15 @@ import { DiPostgresql } from "react-icons/di";
 import { FaGitAlt } from "react-icons/fa6";
 import { AiOutlineDocker } from "react-icons/ai";
 import { RiTailwindCssFill } from "react-icons/ri";
+// other imports
+import Bio from "../../components/bio/bio";
 
 function HomePage() {
   return (
     <>
       <title>Home Page to Portfolio</title>
       <div>
+        <Bio />
         <p>Welcome to my portfolio!</p>
       </div>
       <title>About Section</title>
